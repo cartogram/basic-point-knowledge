@@ -9,7 +9,7 @@ interface Props {}
 const StyledDisclaimer = styled.div<Props>`
   border: 1px solid;
   max-width: 500px;
-  margin: ${props => props.theme.emSizes[2]};
+  margin: auto;
   padding: ${({theme: {emSizes}}) => `${emSizes[2]} ${emSizes[3]}`};
 `;
 
