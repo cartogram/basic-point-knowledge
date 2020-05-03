@@ -51,7 +51,7 @@ const theme: DefaultTheme = {
     sans: {
       name:
         '-apple-system,system-ui,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif,"Sans Serif",Icons',
-      weight: 300,
+      weight: 900,
     },
     mono: {
       name: `'Inconsolata', monospace`,

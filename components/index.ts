@@ -8,3 +8,4 @@ export {default as RawHtml} from './RawHtml';
 export {default as Logo} from './Logo';
 export {default as FrontMatter} from './FrontMatter';
 export {default as Mast} from './Mast';
+export {default as Disclaimer} from './Disclaimer';
