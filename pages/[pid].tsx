@@ -8,12 +8,12 @@ interface Props {
   post: any;
 }
 function Post({post}: Props) {
-  const {title, slug} = post || {};
+  const {slug} = post || {};
   const content = slug && require(`../content/${slug}.md`).default;
 
   return (
     <Content>
-      <FrontMatter title={title} />
+      <FrontMatter {...post} />
       <RawHtml>
         <ReactMarkdown escapeHtml={false} source={content || ''} />
       </RawHtml>

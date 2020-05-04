@@ -15,7 +15,7 @@ const GlobalStyle = createGlobalStyle`
     font-size: 6vw
 
     ${respondTo.xs`
-      font-size: 4.5vw
+      font-size: 4vw
     `}
 
     ${respondTo.sm`
@@ -27,7 +27,7 @@ const GlobalStyle = createGlobalStyle`
     `}
 
     ${respondTo.lg`
-      font-size: 1.5vw;
+      font-size: 1.3vw;
     `}
   }
 

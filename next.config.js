@@ -1,9 +1,8 @@
 /* eslint-disable no-undef */
-const withImages = require('next-images');
 
 require('dotenv').config();
 
-module.exports = withImages({
+module.exports = {
   webpack: config => {
     config.module.rules.push({
       test: /\.md$/,
@@ -12,4 +11,4 @@ module.exports = withImages({
 
     return config;
   },
-});
+};

@@ -8,7 +8,7 @@ interface Post {
   color?: string;
 }
 
-enum Tag {
+export enum Tag {
   Investing = 'investing',
 }
 
