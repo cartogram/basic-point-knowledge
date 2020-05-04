@@ -1,8 +1,9 @@
-/* eslint-disable no-process-env, no-undef */
+/* eslint-disable no-undef */
+const withImages = require('next-images');
 
 require('dotenv').config();
 
-module.exports = {
+module.exports = withImages({
   webpack: config => {
     config.module.rules.push({
       test: /\.md$/,
@@ -11,8 +12,4 @@ module.exports = {
 
     return config;
   },
-  env: {
-    NAME: process.env.NAME,
-    BETA_1: process.env.BETA_1,
-  },
-};
+});
