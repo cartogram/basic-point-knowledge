@@ -12,7 +12,7 @@ const GlobalStyle = createGlobalStyle`
     font-family: ${theme.fontFamilies.serif.name};
     font-weight: ${theme.fontFamilies.serif.weight};
     line-height: 1.4;
-    font-size: 6vw
+    font-size: 5vw
 
     ${respondTo.xs`
       font-size: 4vw

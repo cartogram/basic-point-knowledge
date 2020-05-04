@@ -21,12 +21,12 @@ const StyledLogo = styled.div<Partial<Props>>`
   padding: ${props => props.theme.emSizes[3]};
 
   svg {
-    max-width: 80px;
+    max-width: 100px;
   }
 
   ${respondTo.sm`
     svg {
-      max-width: 120px;
+      max-width: 140px;
     }
   `}
 
