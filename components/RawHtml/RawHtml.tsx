@@ -6,6 +6,18 @@ import {respondTo} from '../../styles/utils';
 const StyledRawHtml = styled.article`
   text-align: right;
 
+  p:first-child {
+    text-indent: ${props => props.theme.emSizes[8]};
+  }
+
+  a {
+    color: inherit;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
   h1,
   h2,
   h3,

@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import {respondTo} from '../../styles/utils';
 import A from '../A';
 import {title} from '../../content';
 
@@ -18,6 +19,22 @@ const StyledLogo = styled.div<Partial<Props>>`
   width: 100%;
   text-align: center;
   padding: ${props => props.theme.emSizes[3]};
+
+  svg {
+    max-width: 80px;
+  }
+
+  ${respondTo.sm`
+    svg {
+      max-width: 120px;
+    }
+  `}
+
+  ${respondTo.md`
+    svg {
+      max-width: 100%;
+    }
+  `}
 `;
 
 export default function Logo() {

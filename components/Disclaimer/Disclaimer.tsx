@@ -11,12 +11,11 @@ const StyledDisclaimer = styled.div`
   height: 100%;
   background: black;
   color: white;
-  border: 1px solid;
   max-width: 500px;
   margin: auto;
   right: 0;
   top: 0;
-  padding: ${({theme: {emSizes}}) => `${emSizes[2]} ${emSizes[3]}`};
+  padding: ${({theme: {emSizes}}) => `${emSizes[6]}`};
 `;
 
 function Disclaimer() {
