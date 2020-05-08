@@ -1,4 +1,3 @@
-Account types can be broken into two broad categories;
 
 Registered Accounts are accounts that have some specific benefit or feature(s) and are designated for a specific purpose. Think RRSP (Registered Retirement Savings Plans), RESP (Registered Education Savings Plan), TFSA (Tax Free Savings Account)
 
