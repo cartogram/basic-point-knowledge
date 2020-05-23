@@ -1,4 +1,5 @@
-export const title = 'Basis Point Knowledge';
+/* eslint-disable no-process-env */
+export const title = process.env.SITE_NAME;
 
 interface Post {
   slug: string;

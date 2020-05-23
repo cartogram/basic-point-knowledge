@@ -38,6 +38,7 @@ const StyledLogo = styled.div<Partial<Props>>`
 `;
 
 export default function Logo() {
+  console.log('title:', title);
   return (
     <StyledLogo>
       <A href="/">
