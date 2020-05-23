@@ -11,4 +11,7 @@ module.exports = {
 
     return config;
   },
+  env: {
+    SITE_NAME: process.env.SITE_NAME,
+  },
 };

@@ -21,7 +21,6 @@ const StyledDisclaimer = styled.div`
 function Disclaimer() {
   const [{value, update}] = useLocalStorage('ShowDisclaimer');
 
-  console.log(value === null);
   if (value !== null) {
     return null;
   }
